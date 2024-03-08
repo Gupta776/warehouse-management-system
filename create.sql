@@ -54,8 +54,9 @@ CREATE TABLE Supplier_Inventory (
 
 -- Drop table order_details
 -- drop table Inventory
--- drop table warehouse 
+-- Drop table warehouse 
 -- drop table orders
 -- drop table suppliers
 -- drop table products
 -- drop table supplier_inventory
+
