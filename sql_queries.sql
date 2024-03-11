@@ -1,5 +1,5 @@
 
---INSERT 
+--INSERT cmd
 INSERT INTO Orders (order_date, supplier_id, total)
 VALUES ('2023-05-07',3,250);
 
