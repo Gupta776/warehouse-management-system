@@ -16,7 +16,7 @@ as a primary key.), the supplier table consists of 1000 rows of data and
 the warehouses table consists of 500 rows of data. 
 
 We attached the custom python code that we used to generate the data in the
-zip file.
+zip file. And to generate large data sets.
 
 
 --
