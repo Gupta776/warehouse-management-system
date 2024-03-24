@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic SQL Statement</title>
+</head>
+<style>
+.form-container {
+    background: #ffffff;
+    width: 50vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 250px;
+    padding: 30px;
+    border: #ff944d;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+h4 {
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.input-box {
+  width: 300px;
+  border-radius: 10px;
+  border: 3px solid #d9b3ff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  margin: auto;
+  height: 50px;
+  padding: 5px;
+  
+}
+input[type="submit"] {
+  background-color: #4CAF50; 
+  border: none; 
+  color: white; 
+  padding: 8px 16px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  box-shadow: 0px 2px 2px #888888; 
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41; 
+}
+body {
+  background-image: url('back1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+</style>
+
+
+<body>
+  <form action="dynamic_sql_statement.php" method="post" class="form-container">
+    <h4>Insert Sql Statement.</h4>
+    <input class="input-box" type="text" name="sql_statement" />
+    <input class='input-button' type="submit" value="Submit" />
+  </form>
+</body>
+</html>
